@@ -599,3 +599,28 @@ svg {
 .color {
   color: #484747;
 }
+
+/* Rec */
+
+.rec {
+  background-color: #8b8989;
+}
+
+.rec__title {
+  width: 1070px;
+  color: #ffffff;
+  font-family: Tahoma-Bold;
+  font-size: 33px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.rec-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 41px 0;
+}
+
+.tech__logo {
+  margin: 0 23px 0 0;
+}
