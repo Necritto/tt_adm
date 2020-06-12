@@ -350,3 +350,106 @@ body {
   max-width: 468px;
   height: 100px;
 }
+
+.services {
+  background-color: #ececec;
+}
+
+.services__title {
+  width: 716px;
+  color: #3a4e70;
+  font-family: Tahoma;
+  font-size: 33px;
+  line-height: 22px;
+  margin: 0 auto;
+  padding: 82px 0 59px 0;
+}
+
+.services__bg {
+  width: 700px;
+  height: 360px;
+  background: url(../img/service_car-min.png) center no-repeat;
+  z-index: 1;
+  position: absolute;
+  transform: translateX(40%);
+}
+
+svg {
+  position: absolute;
+}
+
+.svg1 {
+  transform: translate(130px, 40px) rotate(15deg);
+}
+
+.svg2 {
+  transform: translate(125px, -10px);
+}
+
+.svg3 {
+  transform: translate(70px, -55px) rotate(-20deg);
+}
+
+.svg4 {
+  transform: translate(-85px, -35px);
+}
+
+.svg5 {
+  transform: translate(-95px, -35px);
+}
+
+.svg6 {
+  transform: translate(-440px, 110px) rotate(75deg);
+}
+
+.svg7 {
+  transform: translate(-265px, 15px);
+}
+
+.svg8 {
+  transform: translate(-300px, 15px) rotate(20deg);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.left-float {
+  text-align: left;
+  max-width: 298px;
+  z-index: 2;
+}
+
+.right-float {
+  text-align: right;
+  max-width: 231px;
+  z-index: 2;
+}
+
+.left-float .float__item,
+.right-float .float__item {
+  margin-bottom: 69px;
+}
+
+.left-float .float__item:last-child,
+.right-float .float__item:last-child {
+  margin-bottom: 49px;
+}
+
+.bottom-float {
+  padding-bottom: 89px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-float p:first-child {
+  margin-right: 128px;
+}
+
+.float__item {
+  color: #484747;
+  font-size: 25px;
+  font-weight: 300;
+}
