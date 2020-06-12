@@ -24,6 +24,14 @@ body {
     url("../fonts/Tahoma.eot") format("eot");
 }
 
+@font-face {
+  font-family: "Tahoma-Bold";
+
+  src: local("Tahoma-Bold"), url("../fonts/Tahoma-Bold.woff2") format("woff2"),
+    url("../fonts/Tahoma-Bold.woff") format("woff"), url("../fonts/Tahoma-Bold.ttf") format("ttf"),
+    url("../fonts/Tahoma-Bold.eot") format("eot");
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -239,6 +247,7 @@ body {
 .slider-content h2 {
   font-size: 34px;
   margin-bottom: 18px;
+  font-family: Tahoma-Bold;
 }
 
 .slider-content p {
@@ -297,7 +306,7 @@ body {
   height: 34px;
   margin: 0 auto;
   padding-top: 47px;
-  font-family: Tahoma;
+  font-family: Tahoma-Bold;
   font-size: 33px;
   line-height: 22px;
 }
@@ -351,6 +360,8 @@ body {
   height: 100px;
 }
 
+/* Services */
+
 .services {
   background-color: #ececec;
 }
@@ -358,7 +369,7 @@ body {
 .services__title {
   width: 716px;
   color: #3a4e70;
-  font-family: Tahoma;
+  font-family: Tahoma-Bold;
   font-size: 33px;
   line-height: 22px;
   margin: 0 auto;
@@ -452,4 +463,95 @@ svg {
   color: #484747;
   font-size: 25px;
   font-weight: 300;
+}
+
+/* Tires */
+
+.tires {
+  max-height: 623px;
+  background-image: url(../img/tires_bg-min.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.tires__title {
+  width: 1106px;
+  color: #ffffff;
+  font-family: Tahoma-Bold;
+  font-size: 33px;
+  padding-top: 38px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tires-wrap {
+  margin: 55px 130px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col:first-child {
+  text-align: right;
+}
+
+.mark {
+  max-width: 214px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.row-1 {
+  margin: 0 16px 45px 0;
+}
+
+.number {
+  color: #fefefe;
+  font-family: Tahoma;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.touareg {
+  margin: 3px 79px 45px 0;
+}
+
+.jetta {
+  margin: 0 79px 37px 16px;
+}
+
+.polo {
+  margin: 0 79px 44px 16px;
+}
+
+.col > ul {
+  width: 170px;
+  border-left: 2px solid #325388;
+  padding-left: 36px;
+  color: #325388;
+  font-family: Tahoma;
+  font-size: 26px;
+  text-align: left;
+}
+
+.col > ul li {
+  margin-bottom: 10px;
+}
+
+.col > ul li:last-child {
+  margin-bottom: 0;
+}
+
+.col > ul li:hover {
+  font-weight: 700;
+  font-size: 28px;
+  cursor: pointer;
 }
