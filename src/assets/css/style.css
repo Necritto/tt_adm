@@ -555,3 +555,47 @@ svg {
   font-size: 28px;
   cursor: pointer;
 }
+
+/* Side Info */
+
+.side-info {
+  background-color: #ececec;
+}
+
+.side-info > .container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.side__title {
+  max-width: 465px;
+  color: #484747;
+  font-size: 23px;
+  margin: 28px 30px 93px 0;
+  text-align: right;
+}
+
+.side__title p {
+  margin-bottom: 14px;
+  hyphens: auto;
+}
+
+.side__title a {
+  color: #325388;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.side__descr {
+  width: 624px;
+  color: #777777;
+  font-size: 17px;
+  font-weight: 400;
+  hyphens: auto;
+}
+
+.color {
+  color: #484747;
+}
