@@ -624,3 +624,24 @@ svg {
 .tech__logo {
   margin: 0 23px 0 0;
 }
+
+/* Map */
+
+.map {
+  background-color: #ececec;
+}
+
+.map > .container > h2 {
+  width: 924px;
+  color: #325388;
+  font-family: Tahoma-Bold;
+  font-size: 33px;
+  line-height: 59px;
+  margin: 0 auto;
+  padding: 66px 0 35px 0;
+}
+
+.map-wrap {
+  height: 475px;
+  background: url(../img/map-min.png) no-repeat center;
+}
