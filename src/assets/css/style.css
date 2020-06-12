@@ -365,13 +365,49 @@ body {
   padding: 82px 0 59px 0;
 }
 
-.canvas {
+.services__bg {
   width: 700px;
   height: 360px;
   background: url(../img/service_car-min.png) center no-repeat;
   z-index: 1;
   position: absolute;
   transform: translateX(40%);
+}
+
+svg {
+  position: absolute;
+}
+
+.svg1 {
+  transform: translate(130px, 40px) rotate(15deg);
+}
+
+.svg2 {
+  transform: translate(125px, -10px);
+}
+
+.svg3 {
+  transform: translate(70px, -55px) rotate(-20deg);
+}
+
+.svg4 {
+  transform: translate(-85px, -35px);
+}
+
+.svg5 {
+  transform: translate(-95px, -35px);
+}
+
+.svg6 {
+  transform: translate(-440px, 110px) rotate(75deg);
+}
+
+.svg7 {
+  transform: translate(-265px, 15px);
+}
+
+.svg8 {
+  transform: translate(-300px, 15px) rotate(20deg);
 }
 
 .wrap {
