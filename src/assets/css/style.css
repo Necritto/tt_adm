@@ -569,14 +569,14 @@ svg {
 .side__title {
   max-width: 465px;
   color: #484747;
-  font-size: 23px;
   margin: 28px 30px 93px 0;
   text-align: right;
 }
 
-.side__title p {
+.side__title h2 {
   margin-bottom: 14px;
-  hyphens: auto;
+  font-size: 23px;
+  font-weight: 400;
 }
 
 .side__title a {
